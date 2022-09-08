@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Output of 'npm pack'
+*.tgz
+*.tar.gz
+
+# Jetbrains IDE
+.idea
+.DS_Store
+.vscode
+
+app/
