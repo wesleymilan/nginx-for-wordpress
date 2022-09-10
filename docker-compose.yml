@@ -1,0 +1,42 @@
+version: "3"
+services:
+
+  nginx.docker:
+    container_name: "wordpress_nginx"
+    image: wordpress_nginx
+    user: root
+    working_dir: /app/www/
+    volumes:
+      - ./:/app/
+    expose:
+      - 3000
+      - 80
+    ports:
+      - 3000:3000
+      - 80:80
+    command: "/./app/docker/nginx/start.sh"
+
+  mysql.docker:
+    cap_add:
+      - SYS_ADMIN
+    container_name: "wordpress_mysql"
+    image: wordpress_mysql
+    privileged: true
+    user: root
+    working_dir: /app/www/
+    volumes:
+      - ./:/app/
+    deploy:
+      resources:
+        limits:
+          cpus: '0.75'
+          memory: 1024M
+        reservations:
+          cpus: '0.50'
+          memory: 256M
+    restart: unless-stopped
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+    command: "/./app/docker/mysql/start.sh"
