@@ -26,14 +26,6 @@ services:
     working_dir: /app/www/
     volumes:
       - ./:/app/
-    deploy:
-      resources:
-        limits:
-          cpus: '0.75'
-          memory: 1024M
-        reservations:
-          cpus: '0.50'
-          memory: 256M
     restart: unless-stopped
     expose:
       - 3306
