@@ -43,7 +43,6 @@ channels/social media:
 YouTube:
 - Um Inventor Qualquer (Português): https://www.youtube.com/c/UmInventorQualquer
 - Wesley Milan (Português): https://www.youtube.com/c/WesleyMilan
-- Wesley Milan (English): https://www.youtube.com/channel/UCAyRxlnOwFi76XWKpT6k08g
 
 Social:
 - Linked-In: https://www.linkedin.com/in/wesleymilan/
