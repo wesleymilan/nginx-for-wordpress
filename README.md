@@ -31,7 +31,7 @@ The most important scripts are:
 - `pm2/pm2-development.json`: PM2 profile file. This files contains the information needed by PM2 to run your API as a
   service and keep it running in case of crash.
 - `config/nginx`: Where all NGinx config files resides and can be edited as your will.
-- `config/php8`: Where all PHP FPM config files resides and can be edited as your will.
+- `config/php81`: Where all PHP FPM config files resides and can be edited as your will.
 - `www/wordpress`: The folder where Wordpress will run from.
 
 
