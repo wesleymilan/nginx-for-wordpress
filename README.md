@@ -1,7 +1,7 @@
 # nginx-for-wordpress
 A Nginx configuration repository for PHP + Wordpress web servers
 
-Full **portuguese** tutorial is here: [https://youtube.com/XXXXXXX](https://youtu.be/RhYWm2mG_zo)
+Full **portuguese** tutorial is here: [https://youtu.be/RhYWm2mG_zo](https://youtu.be/RhYWm2mG_zo)
 
 # 1st Step: Domain name
 In your local host machine add the following lines to your `/etc/hosts` file in order to find the application.
