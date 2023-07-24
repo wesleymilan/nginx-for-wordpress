@@ -17,7 +17,7 @@ Build your custom Docker Image running `./docker/build.sh`
 `docker-compose up -d`: Daemon version
 
 # 4th Step: Check your browser
-Open http://www.php.dvp/ and check the headers on your devtools, and you should see this entry `Server: nginx`.
+Open http://www.wordpress.dvp/ and check the headers on your devtools, and you should see this entry `Server: nginx`.
 
 # Studying how it works
 The most important scripts are:
